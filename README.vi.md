@@ -12,6 +12,7 @@ Mô hình ngôn ngữ có xu hướng thay chi tiết cụ thể, hiếm bằng 
 - **20 điều cần tránh**, như từ rỗng, negative parallelism, false range, nguồn mơ hồ, câu tóm tắt lặp, cấu trúc công thức, giấu chủ thể hành động, cân bằng giả, đổi đồng nghĩa cho thuật ngữ.
 - **Trước khi viết:** kiểm dữ kiện chưa xác nhận và người đọc mục tiêu, hỏi gộp một lượt.
 - **Tự kiểm trước khi giao:** rà theo 20 điều, phép thử cụ thể, phép thử khuôn mới, rồi chấm 5 tiêu chí (thẳng, nhịp, tin người đọc, tự nhiên, cô đọng). Dưới 35/50 thì sửa tiếp.
+- **Giọng riêng của bạn:** dán 2–3 đoạn văn của chính bạn, skill sẽ bám theo nhịp câu, từ vựng và dấu câu của mẫu (ví dụ giữ em dash nếu mẫu có dùng). Mẫu thắng các quy tắc về hình thức, không thắng nguyên tắc nền và các quy tắc về nội dung.
 - **Rà soát văn bản có sẵn:** liệt kê vi phạm theo số điều, báo điểm, rồi đưa bản đã sửa, không đổi mức khẳng định, thuật ngữ và số liệu.
 
 ## Ranh giới

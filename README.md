@@ -12,6 +12,7 @@ Language models tend to replace specific, rare details with generic, positive wo
 - **20 patterns to avoid**, such as empty vocabulary, negative parallelism, false ranges, vague sources, repeated summaries, rigid structures, hidden actors, false balance, synonym-swapping for terms.
 - **Before writing:** the skill checks unconfirmed facts and the target reader, and asks everything in one round.
 - **Self-check before delivery:** a pass over the 20 patterns, a concreteness test, a new-pattern test, then a 5-criterion score (directness, rhythm, trust in the reader, naturalness, concision). Below 35/50 means revise.
+- **Your own voice:** paste two or three paragraphs of your writing and the skill follows its rhythm, word choice and punctuation (for example, it keeps em dashes if your sample uses them). The sample overrides the form rules, never the base principles or the content rules.
 - **Reviewing existing text:** lists violations by rule number, reports the score, then gives the revised text without changing claims, terms or figures.
 
 ## Boundaries
