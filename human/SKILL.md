@@ -23,7 +23,7 @@ Bốn nguyên tắc này đứng trên 20 điều. Khi một điều xung đột
 
 **P3. Quy tắc là phép kiểm, không phải chỉ tiêu.** Không viết để đạt một con số (độ dài câu, số câu ngắn). Sau khi sửa, kiểm xem có sinh khuôn mới không.
 
-**P4. Giữ nghĩa.** Khi sửa văn bản có sẵn, giữ nguyên mức khẳng định, thuật ngữ, số liệu và lập trường của người viết.
+**P4. Giữ nghĩa.** Khi sửa văn bản có sẵn, giữ nguyên mức khẳng định, thuật ngữ, số liệu và lập trường của người viết. Giữ nguyên cả phần trích dẫn trực tiếp, tên riêng, tiêu đề tác phẩm, và đoạn bàn về chính một cụm từ (nhắc đến cụm đó chứ không dùng nó), dù trong đó có mẫu thuộc 20 điều.
 
 ## Phạm vi áp dụng
 
@@ -32,6 +32,12 @@ Bốn nguyên tắc này đứng trên 20 điều. Khi một điều xung đột
 Cũng áp dụng khi người dùng đưa văn bản có sẵn và yêu cầu rà soát hoặc sửa cho bớt giọng AI. Khi đó, liệt kê các vi phạm theo số điều bên dưới, báo điểm chấm ở mục "Tự kiểm", rồi đưa bản đã sửa.
 
 **Khi sửa văn bản có sẵn,** áp P4: không đổi "gợi ý" thành "cho thấy", không bỏ chữ "có thể" đang mang nghĩa. Skill này chỉ xử lý hình thức diễn đạt. Nếu văn bản còn rối mạch ý (ý chính bị chôn, điều kiện đứng trước luận điểm), sắp lại mạch ý trước (đưa ý chính lên đầu, đặt luận điểm trước điều kiện), rồi mới gỡ khuôn mẫu.
+
+**Khi sửa trực tiếp một file** (markdown, tài liệu, README...): chỉ động vào phần văn xuôi. Giữ nguyên code, khối lệnh, dữ liệu, frontmatter, đường dẫn và liên kết.
+
+## Giọng riêng của người viết
+
+Nếu người dùng dán 2–3 đoạn văn của chính họ làm mẫu, bám theo mẫu đó: nhịp câu, độ dài câu, từ vựng quen dùng, cách dùng dấu câu, mức trang trọng. Mẫu thắng các điều thuộc hình thức (điều 11 về em dash, điều 15 về nhịp, điều 20 về lặp từ): mẫu dùng em dash thì giữ em dash. Mẫu không thắng bốn nguyên tắc nền và không thắng điều thuộc nội dung (1, 2, 3, 6, 8): người viết quen dùng "đóng vai trò then chốt" thì cụm đó vẫn là cụm rỗng nếu thay được bằng chi tiết cụ thể. Không có mẫu thì viết theo thể loại: văn cá nhân và ý kiến giữ giọng riêng, văn kỹ thuật và tra cứu giữ trung tính. Không suy ra "giọng" từ một mẫu quá ngắn (dưới khoảng một đoạn); khi đó báo cho người dùng và xin thêm.
 
 Áp dụng 20 điều dưới đây cho cả hai ngôn ngữ. Văn bản tiếng Việt: đọc thêm `references/vietnamese-patterns.md`. Văn bản tiếng Anh: đọc thêm `references/english-patterns.md`.
 
@@ -56,7 +62,7 @@ Nếu người dùng bảo viết ngay, không hỏi: viết ở mức khái qu�
 
 **4. False range.** Không viết "trải dài từ A đến B" nếu không liệt kê được các điểm cụ thể ở giữa. Chỉ có 2 điểm dữ liệu thì nói rõ là 2.
 
-**5. Editorializing asides.** Không chèn "cần lưu ý rằng", "không thể không nhắc đến", "điều quan trọng là". Mức độ quan trọng tự thể hiện qua cách trình bày và vị trí.
+**5. Editorializing asides.** Không chèn "cần lưu ý rằng", "không thể không nhắc đến", "điều quan trọng là". Mức độ quan trọng tự thể hiện qua cách trình bày và vị trí. Cùng điều này: không chồng nhiều từ rào đón vào một nhận định ("có thể phần nào", "khá là", "dường như có xu hướng"). Chọn một mức chắc chắn đúng với căn cứ và viết một lần; khẳng định hay dè dặt đều phải khớp đầu vào (P4).
 
 **6. Phóng đại ý nghĩa và giọng quảng cáo.** Không gán ý nghĩa phóng đại cho dữ kiện nhỏ, và không viết như tờ rơi hay cẩm nang du lịch. Mô tả bằng đặc điểm kiểm chứng được. Thành tích có số liệu đi kèm ngay sau thì giữ. Khi viết lại một văn bản để "bớt giọng PR", kiểm xem bản mới có đưa thêm giọng PR không.
 
@@ -68,9 +74,9 @@ Nếu người dùng bảo viết ngay, không hỏi: viết ở mức khái qu�
 
 **10. Cấu trúc công thức cứng nhắc.** Không áp khuôn mục cố định nếu không phản ánh logic nội tại của nội dung. Cấu trúc do nội dung quyết định.
 
-**11. Giới hạn định dạng.** In đậm chỉ cho thuật ngữ hoặc con số cần quét nhanh. Bullet chỉ khi các mục thực sự độc lập, song song; có quan hệ nhân quả hoặc diễn giải thì viết văn xuôi. Tiêu đề viết hoa chữ đầu câu, không Title Case. Em dash (—): tiếng Việt không dùng, thay bằng dấu phẩy, ngoặc đơn, hai chấm hoặc tách câu. Tiếng Anh chỉ dùng khi dấu phẩy, ngoặc đơn, hai chấm không diễn đạt đúng quan hệ ngữ pháp cần thiết, không dùng để tạo nhịp.
+**11. Giới hạn định dạng.** In đậm chỉ cho thuật ngữ hoặc con số cần quét nhanh. Bullet chỉ khi các mục thực sự độc lập, song song; có quan hệ nhân quả hoặc diễn giải thì viết văn xuôi. Tiêu đề viết hoa chữ đầu câu, không Title Case. Em dash (—): tiếng Việt không dùng, thay bằng dấu phẩy, ngoặc đơn, hai chấm hoặc tách câu. Tiếng Anh chỉ dùng khi dấu phẩy, ngoặc đơn, hai chấm không diễn đạt đúng quan hệ ngữ pháp cần thiết, không dùng để tạo nhịp. Ngoại lệ: mẫu giọng của người dùng (mục "Giọng riêng của người viết") dùng em dash thì theo mẫu. Emoji, mũi tên (→) và dấu nháy cong thay cho nháy thẳng trong văn xuôi: bỏ, trừ khi thể loại hoặc mẫu giọng có dùng.
 
-**12. Tàn dư văn phong hội thoại.** Không kết văn bản bằng "Hy vọng điều này hữu ích", "Cho tôi biết nếu cần thêm gì". Không mở đầu kiểu thư từ trong nội dung không phải thư.
+**12. Tàn dư văn phong hội thoại.** Không kết văn bản bằng "Hy vọng điều này hữu ích", "Cho tôi biết nếu cần thêm gì". Không mở đầu kiểu thư từ trong nội dung không phải thư. Không để văn bản tự mô tả chính nó ("bài viết này sẽ trình bày...", "phần tiếp theo bàn về...") thay vì nói thẳng về đối tượng; mục lục hay đoạn dẫn của tài liệu dài có chức năng định hướng thật thì giữ.
 
 **13. Template chưa điền.** Không để hướng dẫn điền-chỗ-trống hay ghi chú nội bộ sót trong bản giao.
 
